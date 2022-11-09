@@ -20,10 +20,11 @@
 
 title: kauman.dev
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My own little place on the internet. I write about what ever
+  I think is relevant, it could be large, small, very technical,
+  talking about management or something completely else!
 baseurl: "/"
+permalink: /:year/:month/:day/:title:output_ext
 url: "https://kauman.dev"
 author:
   name: Gustav Utke Kauman
