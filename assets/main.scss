@@ -1,0 +1,23 @@
+---
+---
+
+@import "minima";
+
+body {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+.footer-col-wrapper { display: flex; }
+
+.footer-col {
+	display: flex;
+	width: 50%;
+}
+
+.social-links-wrapper { justify-content: right; }
+
+.svg-icon { vertical-align: middle; }
+
+.excerpt { color: grey; }
+
+.highlight { tab-size: 4; }
