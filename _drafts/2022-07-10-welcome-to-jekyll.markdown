@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2022-07-10 12:38:42 +0200
+date:   2022-07-10
+modified_date: 2022-08-10
 categories: jekyll update
 excerpt_separator: <!-- more -->
 ---
@@ -15,12 +16,16 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
+{% highlight php %}
+function print_hi($name)
+{
+	echo "Hi, {$name}";
+}
 print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+// => prints 'Hi, Tom' to STDOUT.
+/*
+	Multiline comment
+*/
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].

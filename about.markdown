@@ -4,17 +4,21 @@ title: About
 permalink: /about/
 ---
 
-This is just a test.
+Hi there! I'm working as a team lead for a group of consultants and
+developers working with integrations to and from the [Business Central
+ERP system](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I have experience building systems with many different languages, 
+platforms and architectures, but lately I've really been enjoying
+[Rust](https://www.rust-lang.org).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm the type of guy --- and maybe you've already guessed it
+based on the comment about Rust --- that likes to build things that work
+the first time, and I would rather wait a week with shipping something 
+to ensure that I don't create a months headache for me or somebody else 
+in the future.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I hold a Bachelor of Engineering in IT and Economics from the [Technical
+University of Denmark](https://www.dtu.dk). My final project was a full
+stack application using React as front-end and Dynamics NAV as back-end
+with Azure API Management as a proxy and API translator.
