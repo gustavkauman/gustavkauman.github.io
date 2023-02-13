@@ -116,7 +116,7 @@ one value, you can also calculate what the next value is.
 
 This can be easily seen if you execute the following SQL query
 ```sql
-DELETE TABLE IF EXISTS test;
+DROP TABLE IF EXISTS test;
 
 CREATE TABLE test (
     id int IDENTITY(1,1),
@@ -139,7 +139,7 @@ SELECT * FROM test;
 ```
 When I run on it, I get the following output:
 
-...
+![Comparison of NEWID and NEWSEQUENTIALID in MS SQL](/assets/images/the-uniqueness-of-systemid-in-bc/sqlserver-comparison.jpg)
 
 As can be seen the values from `NEWID()` are not following the same
 sequence as `NEWSEQUENTIALID()`.
