@@ -86,7 +86,7 @@ FROM   sys.columns
 WHERE  name = '$systemId'
 AND    object_id = object_id('dbo.tablename')
 ```
-Change the 'dbo.tablename' to a table you want to inspect. Be sure to
+Change the `dbo.tablename` to a table you want to inspect. Be sure to
 select the table from the base application.
 
 What you will see is that it makes use of a built-in SQL server function
@@ -119,9 +119,9 @@ This can be easily seen if you execute the following SQL query
 DROP TABLE IF EXISTS test;
 
 CREATE TABLE test (
-    id int IDENTITY(1,1),
-    newid uniqueidentifier,
-    newseqid uniqueidentifier
+    id int primary key,
+    newid uniqueidentifier default newid(),
+    newseqid uniqueidentifier default newsequentialid()
 );
 
 DECLARE @Counter int;
@@ -129,9 +129,7 @@ SET @Counter = 0;
 
 WHILE (@Counter <= 10)
 BEGIN
-    INSERT INTO test (newid, newseqid)
-    VALUES (NEWID(), NEWSEQUENTIALID());
-
+    INSERT INTO test (id) VALUES (@Counter);
     SET @Counter = @Counter + 1;
 END;
 
