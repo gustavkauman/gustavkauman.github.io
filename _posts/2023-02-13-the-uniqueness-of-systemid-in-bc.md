@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "The uniqueness of SystemId in Business Central"
+date: 2023-02-10
+modified_date: 2023-02-13
 excerpt_separator: <!-- more -->
 ---
 When you are using `Record.SystemId` in Business Central then you are
