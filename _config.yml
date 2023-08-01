@@ -29,10 +29,19 @@ url: "https://kauman.dev"
 author:
   name: Gustav Utke Kauman
   email: hello@kauman.dev
-# twitter_username: gustavkauman
-github_username:  gustavkauman
 minima:
   date_format: "%Y-%m-%d"
+  social_links:
+    - { 
+        platform: github, 
+        username: "gustavkauman", 
+        user_url: "https://github.com/gustavkauman"
+      }
+    - {
+        platform: mastodon, 
+        username: "@gustavkauman@mastodon.social", 
+        user_url: "https://mastodon.social/@gustavkauman"
+      }
 show_excerpts: true
 
 # Build settings
