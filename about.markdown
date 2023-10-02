@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Hi there! I'm working as a team lead for a group of consultants and
-developers working with integrations to and from the [Business Central
-ERP system](https://dynamics.microsoft.com/en-us/business-central/overview/).
+Hi there! I'm working as Principal Software Engineer at a company
+delivering [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/)
+and a POS solution.
 
 I have experience building systems with many different languages, 
 platforms and architectures, but lately I've really been enjoying
